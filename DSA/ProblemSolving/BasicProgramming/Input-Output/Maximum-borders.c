@@ -1,7 +1,12 @@
 #include <stdio.h>
 
-#define MAXN 100
-#define MAXM 100
+/* #define MAXN 100
+#define MAXM 100  // partially accepted */
+
+#define MAXN 1005
+#define MAXM 1005  
+// accepted , HackerEarth test files can be large. The grid can be up to 1000 × 1000 (sometimes more).
+
 
 int main() {
     int t, n, m;
